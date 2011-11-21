@@ -27,7 +27,7 @@
 #import "Three20Style/TTDefaultStyleSheet.h"
 
 static const CGFloat kKeySpacing = 12.0f;
-static const CGFloat kKeyWidth = 75.0f;
+static const CGFloat kKeyWidth = 80.0f;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
