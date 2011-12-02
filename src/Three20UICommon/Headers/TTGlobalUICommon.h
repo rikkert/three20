@@ -108,6 +108,11 @@ CGFloat TTGroupedTableCellInset();
 void TTAlert(NSString* message);
 
 /**
+ * A convenient way to show a UIAlertView with the given title and message.
+ */
+void TTAlertWithTitle(NSString* title, NSString* message);
+
+/**
  * Same as TTAlert but the alert view has no title.
  */
 void TTAlertNoTitle(NSString* message);
