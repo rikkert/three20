@@ -69,7 +69,8 @@ static const CGFloat kControlPadding = 8.0f;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 + (BOOL)shouldConsiderControlIntrinsicSize:(UIView*)view {
-  return [view isKindOfClass:[UISwitch class]];
+  return [view isKindOfClass:[UISwitch class]]
+    || [view isKindOfClass:[UIButton class]];
 }
 
 
